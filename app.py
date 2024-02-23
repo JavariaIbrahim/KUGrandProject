@@ -8,7 +8,8 @@ model_path=os.path.join("models", "xgb_model.pkl")
 with open(model_path,'rb') as file:
     model=pickle.load(file)
 def main():
-    st.header("KU Machine Learning")
+    st.header("Credit Risk Model")
+    st.subheader("Karachi University")
     st.divider()
     col1=st.columns(5)
     col2=st.columns(5)
